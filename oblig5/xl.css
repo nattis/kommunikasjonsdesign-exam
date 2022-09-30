@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    line-height: 2;
+}
+  
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    min-height: 100vh;
+    width: 100%;
+}
+
+h1 {
+    position: relative;
+    top: 180px;
+    bottom: 0;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 0.75rem rgb(37, 37, 37));
+    width: 80%;
+    padding-bottom: 15vw;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: normal;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+h4 {
+    
+    margin-top: 5vw;
+    margin-bottom: 6vw;
+    max-width: 600px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+
+}
+  
+main {
+    max-width: 1600px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 3vw;
+}
+
+p {
+    margin-top: 3vw;
+    max-width: 600px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.parallax {
+    width: 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+  
+.parallax h3 {
+    padding: 1.2rem;
+    margin: 20vw auto;
+    color: white;
+    max-width: 30vw;
+    text-align: center;
+}
+  
+.parallax h7 {
+    padding: 0.8rem;
+    margin: 12vw auto;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+.parallax p {
+    margin: 50vw auto;
+    padding: 1rem;
+    text-align: center;
+    max-width: 25vw;
+}
+  
+#start{
+    background: url("avsnitt_1.png") center fixed;
+    background-color: #090e14;
+}
+
+#ex {
+    background: url("ex_kjreste.png") center fixed;
+}
+#ex p {
+    background: black;
+    color: white;
+}
+
+#car{
+    background: url("car.png") no-repeat center fixed;
+}
+
+#background{
+    background: url("biltur_1.png") no-repeat center fixed;
+}
+
+#car p {
+    background: #1a1a1a;
+    color: white;
+}
+
+#mother {
+    background: url("kjkken_elsker_du.png") center fixed;
+}
+
+#mother p {
+    background: black;
+    color: white;
+}
+
+#hands {
+    background: url("hender.png") center fixed;
+}
+
+#hands p {
+    background: white;
+    color: black;
+    
+}
+
+@media only screen and (max-width: 600px)    {
+    .parallax h3{
+        margin-bottom: 12em;
+    }
+
+    .parallax p {
+        margin-bottom: 100vw;
+        max-width: 50vw;
+    }
+
+    h1{
+        margin-bottom: 60vw;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    p{
+        padding: 2vw;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1020px){
+    img{
+        width: 90%;
+    }
+}

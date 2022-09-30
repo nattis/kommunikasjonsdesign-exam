@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    line-height: 1.5;
+
+    background-image: url("BG2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    
+}
+
+img {
+    position: fixed;
+    width: 1920px;
+    height: 1080px;
+    bottom: -120%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+#whiteImage{
+    position: fixed;
+    width: 1920px;
+    height: 1080px;
+    opacity: 0;
+    bottom: 0;
+    right: 0px;
+}
+
+#scaleImage{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    
+    opacity: 0;
+    bottom: 0;
+    right: 0%;
+
+    z-index: -2;
+
+}
+
+#picture{
+    opacity: 0.5;
+}
+
+#picture2{
+    opacity: 0.6;
+}
+
+p2{
+    background: rgba(50,50,50,0.7);
+    padding: 1rem;
+    color: white;
+    margin-top: 0vw;
+}
+h1 {
+    position: relative;
+    right: 240px;
+    top: 180px;
+    bottom: 0;
+    color: white;
+    filter: drop-shadow(0 0 0.75rem rgb(37, 37, 37));
+    width: 80%;
+    padding-bottom: 15vw;
+    padding-left: 260px;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: normal;
+}
+
+h3 {
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    font-weight: normal;
+}
+
+article {
+    display: flex;
+	flex-direction: column;
+	align-items: left;
+    width: 100%;
+	max-width: 920px;
+  	margin: 0 auto;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    color: rgb(231, 231, 231);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(255, 255, 197);
+    background-color: transparent;
+    text-decoration: underline;
+    }
+
+.parallax {
+    width: 100%;
+    margin: 2rem auto;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.parallax p {
+    background: rgba(50,50,50,0.7);
+    padding: 1rem;
+    color: white;
+    margin-top: 16vw;
+    margin-bottom: 0vw;
+}
+
+.square{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+.parallax h3 {
+    background: rgba(70,70,70,0.8);
+    padding: 1.2rem;
+    margin: 15vw auto;
+    color: white;
+}
+
+.parallax h4 {
+    
+    padding: 1.2rem;
+    font-size: 27px;
+    margin: 15vw auto;
+    color: white;
+}
+
+.parallax h7 {
+    background: rgba(70,70,70,0.8);
+    padding: 0.8rem;
+    margin: 0.3vw auto;
+    color: white;
+    text-align: center;
+}
+
+.parallax h2 {
+    margin : 1vw auto;
+}
+
+#water56 {
+    background-image: url("56_water.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    width: 100%;
+    height: 1000px;
+}
+
+#water32 {
+    background-image: url("32_water.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    width: 100%;
+    height: 1000px;
+}

@@ -1,0 +1,12 @@
+# https://storymap.knightlab.com/
+
+https://www.visme.co/map-generator/
+https://app.datawrapper.de/signin/
+
+# https://www.image-map.net/
+
+https://leafletjs.com/
+https://www.openstreetmap.org/#map=5/65.401/17.864
+
+##### Notes
+

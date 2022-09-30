@@ -1,0 +1,79 @@
+*{
+	background-color: black;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: white;
+}
+
+article {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	max-width: 700px;
+  	margin: auto;
+}
+
+h1 {
+	font-family: Austin News Headline,Times New Roman,serif;
+	font-size: 4vw;
+    font-weight: 1000;
+}
+
+figure {
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+figcaption {
+	font-style: italic;
+	padding-bottom: 1vw;
+}
+
+h3 {
+	padding-top: 1.5vw;
+}
+
+h7 {
+	padding-bottom: 2vw;
+}
+
+p {
+	line-height: 4vh;
+}
+
+h4 {
+	margin: 20px 0px -5px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 7vw;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	h1 {
+		font-size: 7vw;
+	}
+}
+@media only screen and (min-width: 768px) {
+	h1 {
+		font-size: 6.5vw;
+	}
+}
+@media only screen and (min-width: 858px) {
+	h1 {
+		font-size: 5vw;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	h1 {
+		font-size: 3vw;
+	}
+}
+
+
+
+

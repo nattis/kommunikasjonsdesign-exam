@@ -1,0 +1,125 @@
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+}
+
+#videoheader {
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.4;
+}
+
+h1 {
+    position: absolute;
+    bottom: 0;
+    color: #F5CC0B;
+    width: 40%;
+    padding-bottom: 15vw;
+    padding-left: 260px;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: normal;
+}
+
+h7 {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+article {
+    display: flex;
+	flex-direction: column;
+	align-items: left;
+    width: 100%;
+	max-width: 900px;
+  	margin: 0 auto;
+    padding: 3vw;
+}
+
+.parallax {
+    width: 100%;
+    margin: 2rem auto;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.parallax p {
+    background: black;
+    padding: 1rem;
+    margin: 50vw auto;
+    color: white;
+}
+
+a {
+    color: #F5CC0B;    ;
+}
+
+#drugs {
+    background-image: url("drugs.jpg");
+}
+
+@media only screen and (max-width: 600px)    {
+    #videoheader {
+        width: 100%;
+        height: auto; 
+    }
+    
+    h1 {
+        width: 90%;
+        padding: 20px;
+        font-size: 2rem;
+    }
+    article {
+        font-size: 3vw;
+    }
+
+    .parallax {
+        width: 100%;
+        
+    }
+    .parallax p {
+        background: black;
+        padding: 1rem;
+        margin: 150vw auto;
+        color: white;
+    }
+    h3 {
+        font-size: 3.5vw;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1020px){
+    #videoheader {
+        width: 100%;
+        height: auto; 
+    }
+    .parallax p {
+        background: black;
+        padding: 1rem;
+        margin: 100vw auto;
+        color: white;
+    }
+    h1 {
+        width: 100%;
+        padding: 20px;
+        font-size: 3rem;
+    }
+}
